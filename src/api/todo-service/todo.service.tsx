@@ -1,6 +1,5 @@
 import request from "../requests";
 import { ITodoResult } from "../../Types/Types";
-// import { ITodoResult } from "../types";
 
 export default class TodoService {
   todoGet = async (): Promise<Array<ITodoResult>> => {
